@@ -1,0 +1,24 @@
+{
+  "name": "cse-notify",
+  "version": "1.0.0",
+  "description": "fetch notices and sends push to u",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kangroklee/cse-notify"
+  },
+  "keywords": [
+    "crawl"
+  ],
+  "author": "kangroklee",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "node-cron": "^3.0.3",
+    "object-hash": "^3.0.0",
+    "puppeteer": "^20.3.0"
+  }
+}
